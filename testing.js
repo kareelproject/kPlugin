@@ -82,7 +82,7 @@ for(var list=document.querySelectorAll("#indexposts.row"),i=0;i<list.length;i++)
 for(var list=document.querySelectorAll(".col-md.col-md-12"),i=0;i<list.length;i++){$(list[i]).removeClass('col-md-12').addClass('col-md-5');}
 for(var list=document.querySelectorAll("div.img-thumb"),i=0;i<list.length;i++){$(list[i]).removeClass('img-thumb-list');}
 for(var list=document.querySelectorAll("img.lazy"),i=0;i<list.length;i++){$(list[i]).removeClass('lazy-thumb-list');}
-for(var list=document.querySelectorAll("h2#judul-indexpost"),i=0;i<list.length;i++){$(list[i]).css('height','40px').css('font-size','17px');}
+for(var list=document.querySelectorAll("h2#judul-indexpost"),i=0;i<list.length;i++){$(list[i]).removeClass('index-title-list');}
 for(var list=document.querySelectorAll("div#info-list"),i=0;i<list.length;i++){$(list[i]).addClass('d-none');}
 for(var list=document.querySelectorAll("div#desc-list"),i=0;i<list.length;i++){$(list[i]).addClass('d-none');}
 }
@@ -94,7 +94,7 @@ for(var list=document.querySelectorAll("#indexposts.row"),i=0;i<list.length;i++)
 for(var list=document.querySelectorAll(".col-md.col-md-5"),i=0;i<list.length;i++){$(list[i]).removeClass('col-md-5').addClass('col-md-12');}
 for(var list=document.querySelectorAll("div.img-thumb"),i=0;i<list.length;i++){$(list[i]).addClass('img-thumb-list');}
 for(var list=document.querySelectorAll("img.lazy"),i=0;i<list.length;i++){$(list[i]).addClass('lazy-thumb-list');}
-for(var list=document.querySelectorAll("h2#judul-indexpost"),i=0;i<list.length;i++){$(list[i]).css('height','26px').css('font-size','22px');}
+for(var list=document.querySelectorAll("h2#judul-indexpost"),i=0;i<list.length;i++){$(list[i]).addClass('index-title-list');}
 for(var list=document.querySelectorAll("div#info-list"),i=0;i<list.length;i++){$(list[i]).removeClass('d-none');}
 for(var list=document.querySelectorAll("div#desc-list"),i=0;i<list.length;i++){$(list[i]).removeClass('d-none');}
 }
